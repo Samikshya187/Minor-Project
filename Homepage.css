@@ -23,7 +23,7 @@
     position: relative;
     z-index: 1;
 }
-
+/* 
 .nav-lists {
     display: flex;
     justify-content: space-between;
@@ -43,8 +43,7 @@
 
 }
 
-.nav-lists ul a,
-i {
+.nav-lists ul a,i{
     margin-left: 1.5rem;
     text-decoration: none;
     color: rgb(244, 240, 245);
@@ -52,7 +51,86 @@ i {
 
 .nav-content {
     background-color: transparent;
+} */
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px 80px;
 }
+
+.navLink{
+    display: flex;
+    gap: 20px;
+}
+.navLink a{
+    text-decoration: none;
+    color: white;
+    font-weight:700;
+    text-shadow:2px 2px 4px #000;
+}
+
+.logo{
+    height: 40px;
+}
+.navRight{
+    display: flex;
+    gap: 18px;
+}
+.navRight form{
+    width: fit-content;
+    padding:2px;
+    border-radius: 36px;
+    
+}
+.navRight form input{
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(192, 196, 87, 0.377);
+    border:none;
+}
+
+.search-input:focus{
+    outline: none;
+    padding-left: 10px;
+}
+
+.navRight form button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(192, 196, 87);
+    border: none;
+    color: white;
+}
+
+.cart{
+    padding: 5px;
+    padding-right: 26px;
+    border:none;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 36px;
+}
+.cartIcon{
+    height: 40px;
+    width: 40px;
+    background-color:rgb(192, 196, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+.cart span{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
 
 .home-body {
     margin-top: 15rem;
@@ -143,11 +221,30 @@ i {
     font-size: 1.3rem;
 }
 
+.productitem-info{
+    text-align: center;
+}
+
 .productitem-price {
     color: grey;
-    margin-left: 0.5rem;
+    /* margin-left: 0.5rem; */
     font-size: 1.2rem;
     font-family: math;
+}
+
+.add-to-cart-btn {
+    font-size: 15px;
+    background-color: rgb(192, 196, 87);
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 13px;
+    cursor: pointer;
+    /* margin-left: 0rem; */
+  }
+
+  .add-to-cart-btn i{
+    margin-left:0.09rem;
 }
 
 .home-body {
@@ -180,7 +277,6 @@ i {
 .homebody2 {
     position: relative;
     margin-top: 3rem;
-
 }
 
 .shop {

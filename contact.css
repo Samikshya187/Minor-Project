@@ -1,0 +1,115 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.bodysection1 {
+    position: relative;
+    z-index: 1;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px 80px;
+}
+.logo{
+    height:80px;
+}
+.navRight{
+    display: flex;
+    gap: 18px;
+}
+.navRight form{
+    width: fit-content;
+    padding:2px;
+    border-radius: 36px;
+    
+}
+.navRight form input{
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(192, 196, 87, 0.377);
+    border:none;
+}
+
+.search-input:focus{
+    outline: none;
+    padding-left: 10px;
+}
+
+.navRight form button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(192, 196, 87);
+    border: none;
+    color: white;
+}
+
+.cart{
+    padding: 5px;
+    padding-right: 26px;
+    border: 1px solid rgb(192, 196, 87);
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 36px;
+}
+.cartIcon{
+    height: 40px;
+    width: 40px;
+    background-color:rgb(192, 196, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+.cart span{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(15, 15, 15);
+}
+
+.navLink{
+    display: flex;
+    gap: 20px;
+}
+.navLink a{
+    text-decoration: none;
+    color: rgb(192, 196, 87);
+    font-weight:700;
+}
+
+.homebody {
+    background-image: url(pexels-suvan-chowdhury-37305-135712.jpg);
+    height:70vh; /* Make the div take up 100% of the viewport height */
+   
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Text color on top of the image */
+    text-align: center;
+    
+}
+
+
+.homebody h1{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    padding-top: 60px;
+    margin-left: 5%;
+    text-shadow:2px 2px 4px #000;
+}
+
+.contact1{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 3rem;
+}
