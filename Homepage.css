@@ -411,9 +411,11 @@ font-size: 1rem;
     color: white;
 }
 
-.footer1{
+/* .footer1{
     display: flex;
-}
+    justify-content: space-evenly;
+
+} */
 
 .footer-section1 h1 {
     color: rgb(80, 126, 36);
