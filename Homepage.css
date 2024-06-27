@@ -402,20 +402,15 @@ font-size: 1rem;
 .foot {
     min-height: 25rem;
     background-color: rgb(182, 184, 103);
+    margin-top: 3rem;
 }
 
 #footer {
-
+    padding: 3rem;
     display: flex;
     justify-content: space-between;
     color: white;
 }
-
-/* .footer1{
-    display: flex;
-    justify-content: space-evenly;
-
-} */
 
 .footer-section1 h1 {
     color: rgb(80, 126, 36);
@@ -430,7 +425,7 @@ font-size: 1rem;
 }
 
 .footer-section2 {
-    margin-right:6rem;
+    margin-right: 10rem;
     margin-top: 3rem;
 }
 
@@ -462,15 +457,14 @@ font-size: 1rem;
 
 .footer-section3 h1 {
     color: rgb(80, 126, 36);
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     font-family: sans-serif;
-    margin-top: 3rem;
 }
 
 .footer-section3 p {
     font-size: 1.5rem;
-    color: rgb(80, 126, 36);
     font-family: sans-serif;
+    color: rgb(80, 126, 36);
 }
 
 .footer-section3 i {
