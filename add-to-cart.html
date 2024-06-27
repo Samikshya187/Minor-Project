@@ -1,12 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="stylesheet" href="shop.css">
+
+    <style>
+        #colourdropdown {
+            width:35rem;
+            border: 1px solid rgb(158, 139, 155);
+            border-radius: 3rem;
+            margin-left: 0rem;
+            padding: 1rem;
+            font-size: 1rem;
+            font-family:sans-serif;
+            margin-top: 0.5rem;
+        }
+
+        #sizedropdown {
+            width:35rem;
+            border: 1px solid rgb(160, 136, 156);
+            border-radius: 3rem;
+            margin-left: 0rem;
+            padding: 1rem;
+            font-size: 1rem;
+            font-family:sans-serif;
+            margin-top: 0.5rem;
+        }
+
+        .main-body {
+            display: flex;
+
+        }
+
+        .main-body-content {
+            margin-left: 5rem
+        }
+
+        .main-body-content h1 {
+            font-size: 3rem;
+            font-family:sans-serif;
+        }
+
+        .main-body-content h5 {
+            font-size: 1rem;
+            font-weight: 100;
+            font-family:sans-serif;
+        }
+
+        .main-body-content h3 {
+            font-size: 1.5rem;
+            font-family:sans-serif;
+
+        }
+
+        .submit {
+            display: flex;
+        }
+
+        #dropdown1 {
+            width: 10rem;
+            padding: 1rem;
+            border-radius: 3rem;
+            margin-left: 1rem;
+        }
+
+        .add-to-cart-button {
+            border: 1px solid black;
+            margin-left: 5rem;
+            width: 15rem;
+            border-radius: 3rem;
+            background-color: white;
+
+        }
+
+        .main-body {
+            margin-top: 5rem;
+
+        }
+
+        .body-section2 {
+            background-color: rgb(130, 47, 117);
+        }
+
+        .flowerinfo {
+            font-size: 1.3rem;
+            margin-top: 2rem;
+            font-family:sans-serif;
+        }
+
+        .flowerinfo ul li {
+            margin-left: 2rem;
+        }
+
+        
+        
+    </style>
 </head>
+
+
 <body>
-    samikshya
+
+    <section class="bodysection1">
+        <div class="nav-content">
+            <div class="navLink">
+                <a href="#">HOME</a>
+                <a href="./shop.html" target="_blank">SHOP</a>
+                <a href="#">OUR STORES</a>
+                <a href="./contact.html" target="_blank">CONTACT</a>
+            </div>
+
+            <div class="logo">
+                <img src="logo2.png" height="250px" width="100%" srcset="">
+
+            </div>
+            <div class="navRight">
+                <form action="">
+                    <input type="text" class="search-input" placeholder="search">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <div class="cart">
+                    <div class="cartIcon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <span>Cart (0)</span>
+                </div>
+            </div>
+       </div>
+    </section>
+    </section>
+    <section class="bodysection2">
+        <div class="main-body">
+            <div class="main-body-img">
+                <img src="mixed bouquet.webp" alt="" height="700px" width="600px">
+            </div>
+            <div class="main-body-content">
+                <h1> Mixed Roses </h1>
+                <h5>Rs 1000 </h5> <br>
+                <hr>
+                <form action="mixroseinfo">
+                    <h3>Select Colour</h3>
+                    <select name="colourdropdown" id="colourdropdown">
+                        <option value="one">Pale Pink/White</option>
+                        <option value="two">Hot pink/Pale Pink</option>
+                        <option value="three">Hot Pink/Orange</option>
+                    </select> <br><br><br>
+                    <hr>
+                    <h3>Size</h3>
+                    <select name="" id="sizedropdown">
+                        <option value="one">Standard</option>
+                        <option value="two">large</option>
+
+                    </select> <br><br><br>
+                    <hr><br>
+                    <div class="submit">
+
+                        <select name="" id="dropdown1">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                        </select>
+                        
+                        <button class="add-to-cart-button"> Add to cart </button>
+
+                    </div>
+
+                </form>
+                <div class="flowerinfo">
+                    <p>From whispered secrets to grand celebrations, roses add a touch of magic!
+                        <br> <br> Choose from 3 colour combinations: <br>
+
+                    <ul>
+                        <li>Hot Pink and Pale Pink</li>
+                        <li>Pale Pink and White</li>
+                        <li>Hot Pink and Orange</li>
+                    </ul> <br>
+                    Large size pictured. Florist will choose appropriate vase to suit. <br><br>
+
+                    Bouquet may vary from image as is dependent on stock availability (see our substitution policy).
+
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="otherimages">
+            <img id="two" src="zoom in mix rose.webp" alt="" height="500px" width="600px"><br/>
+            <img  id="four" src="zoom in yellow rose.webp" alt="" height="500px" width="600px"><br/>
+            <img  id="one" src="white rose.webp" alt="" height="700px" width="600px"><br/>
+            <img  id="three" src="yellowrose (2).webp" alt="" height="700px" width="600px"><br/>
     
+        </div>
+        <div class="quantity">
+            <button onclick="decreaseQuantity()">-</button>
+            <span id="quantity">1</span>
+            <button onclick="increaseQuantity()">+</button>
+          </div
+
+    </section>
+    
+    <script>
+        // JavaScript functions to handle quantity increase and decrease
+        function increaseQuantity() {
+          var quantityElement = document.getElementById('quantity');
+          var currentQuantity = parseInt(quantityElement.innerText);
+          quantityElement.innerText = currentQuantity + 1;
+        }
+      
+        function decreaseQuantity() {
+          var quantityElement = document.getElementById('quantity');
+          var currentQuantity = parseInt(quantityElement.innerText);
+          if (currentQuantity > 1) {
+            quantityElement.innerText = currentQuantity - 1;
+          }
+        }
+
+
+  // Get references to the dropdown and image container
+const dropdown = document.getElementById('colourdropdown');
+const imageContainer = document.getElementById('image-container');
+
+// Add event listener to the dropdown
+dropdown.addEventListener('change', function() {
+    // Get the selected value
+    const selectedValue = dropdown.value;
+    
+    // Find the corresponding image element based on selected value
+    const selectedImage = document.getElementById(selectedValue);
+    
+    // Check if the image element exists
+    if (selectedImage) {
+        // Calculate the position to scroll to (top position of the image relative to the viewport)
+        const offsetTop = selectedImage.offsetTop;
+        
+        // Scroll the window to the calculated position
+        window.scrollTo({
+            top: offsetTop,
+            behavior: 'smooth'  
+        });
+    }
+});
+
+
+</script>
 </body>
-</html>
+<footer class="foot">
+    <div id="footer">
+        <div class="footer-section1">
+            <img src="logo1.png" alt="" height="250px" width="60%">
+            <h1>Newsletter</h1>
+            <p>Subscribe to get special offers, free giveaways, <br>
+                and once-in-a-lifetime deals.
+            </p>
+
+        </div>
+
+        <div class="footer-section2">
+            <h1>Menu</h1>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">SHOP</a></li>
+                <li><a href="">OUR STORES</a></li>
+                <li><a href="">CONTACT</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="footer-section3">
+            <h1>Visit any of our stores!</h1>
+            <p>View store finder here.</p>
+            <p>info@florasite.com</p>
+
+            <div>
+                <i class="fa-brands fa-facebook fa-2x" style="color: rgb(235, 235, 247);"></i>
+                <i class="fa-brands fa-instagram fa-2x" style="color:rgb(235, 235, 247)"></i>
+                <i class="fa-brands fa-twitter fa-2x" style="color: rgb(235, 235, 247);"></i>
+                <i class="fa-brands fa-youtube fa-2x" style="color: rgb(235, 235, 247);"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="rights">
+        <center>
+            Copyright © 2024. All rights reserved.
+        </center>
+
+
+    </div>
+</footer>

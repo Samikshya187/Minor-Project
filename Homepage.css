@@ -3,6 +3,43 @@
     padding: 0%;
 }
 
+
+
+
+.text-container {
+    display: flex;
+    border: none;
+    padding: 10px;
+    background-color: rgb(192, 196, 87);
+    width:98.5%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .changing-text {
+    display: inline-block;
+    font-size:20px;
+    font-weight: bold;
+    animation: changeText 5s infinite;
+    color: white;
+    font-family: sans-serif;
+    
+  }
+
+  @keyframes changeText {
+    0%, 25% {
+      opacity: 1;
+    }
+    50%, 75% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  
+
 #myVideo {
     position: absolute;
     z-index: -1;
@@ -69,11 +106,18 @@
     color: white;
     font-weight:700;
     text-shadow:2px 2px 4px #000;
+    font-family: sans-serif;
+    
 }
 
 .logo{
-    height: 40px;
+    height:50px;
+    justify-content:center ;
+    display: flex;
+    align-items: center; 
+    margin-top: 2.5rem;
 }
+
 .navRight{
     display: flex;
     gap: 18px;
@@ -129,24 +173,29 @@
     font-size: 16px;
     font-weight: 600;
     color: white;
+    font-family: sans-serif;
+    
 }
 
 
 .home-body {
     margin-top: 15rem;
-    font-family: math;
+    font-family: sans-serif;
+    
 }
 
 .home-body h1 {
     color: white;
     font-size: 3rem;
+    font-family: sans-serif;
+    
 }
 
 .body-button button {
     margin-top: 0.3rem;
     padding: 0.7rem;
     font-size: 1.5rem;
-    font-family: math;
+    font-family: sans-serif;
     border: none;
     background-color: rgb(192, 196, 87);
     color: white;
@@ -171,7 +220,7 @@
     padding: 1rem;
     margin-left: 28rem;
     font-size: 1.3rem;
-    font-family: math;
+    font-family: sans-serif;
     display: flex;
 }
 
@@ -179,6 +228,8 @@
     margin-left: 1.5rem;
     text-decoration: none;
     color: rgb(4, 0, 5);
+   
+    
 
 }
 
@@ -219,6 +270,7 @@
 
 .product-information p {
     font-size: 1.3rem;
+    font-family: sans-serif;
 }
 
 .productitem-info{
@@ -234,6 +286,7 @@
 
 .add-to-cart-btn {
     font-size: 15px;
+    font-family: sans-serif;
     background-color: rgb(192, 196, 87);
     color: #fff;
     border: none;
@@ -249,7 +302,7 @@
 
 .home-body {
     margin-top: 15rem;
-    font-family: math;
+    font-family: sans-serif;
 }
 
 .homebody2 h1 {
@@ -261,7 +314,7 @@
     margin-top: 0.3rem;
     padding: 0.7rem;
     font-size: 1.5rem;
-    font-family: math;
+    font-family: sans-serif;
     border: none;
     background-color: rgb(192, 196, 87);
     color: white;
@@ -287,6 +340,10 @@
     margin-left: 5%
 }
 
+.shop h1{
+    font-family: sans-serif;
+}
+
 .shop-button {
     position: absolute;
     top: 60%;
@@ -297,7 +354,7 @@
     margin-left: 5%;
     margin-bottom: 3%;
     font-size: 1.2rem;
-    font-family: math;
+    font-family: sans-serif;
 }
 
 .card-section2 {
@@ -308,7 +365,7 @@
     display: flex;
     background-color: rgb(115, 122, 44);
     font-size: 1.2rem;
-    font-family: math;
+    font-family: sans-serif;
     margin-top: 7rem;
 
 }
@@ -319,22 +376,28 @@
     color: white;
     text-align: center;
     margin-bottom: 2rem;
+    /* height: 30rem; */
+    width: 30rem;
+    margin-right: 2rem;
+
 }
 
-.wrapping {
-    margin-top: 2rem;
-    margin-left: 2rem;
-    color: white;
-    text-align: center;
-    margin-bottom: 2rem;
+.flower h2{
+    font-size: 1.2rem;
+    display: flex;
+   justify-content: center;
+    align-items: center;
 }
 
-.delivery {
-    margin-top: 4rem;
-    color: white;
-    text-align: center;
-    margin-bottom: 2rem;
+.flower p{
+    margin-top: 1rem;
+align-items: center;
+justify-content: center;
+align-items: center;
+font-size: 1rem;
+
 }
+
 
 .foot {
     min-height: 25rem;
@@ -342,24 +405,30 @@
 }
 
 #footer {
-    padding: 3rem;
+
     display: flex;
     justify-content: space-between;
     color: white;
 }
 
+.footer1{
+    display: flex;
+}
+
 .footer-section1 h1 {
     color: rgb(80, 126, 36);
     font-size: 1.9rem;
+    font-family: sans-serif;
 }
 
 .footer-section1 p {
     color: rgb(80, 126, 36);
     font-size: 1.5rem;
+    font-family: sans-serif;
 }
 
 .footer-section2 {
-    margin-right: 10rem;
+    margin-right:6rem;
     margin-top: 3rem;
 }
 
@@ -373,6 +442,7 @@
 .footer-section2 ul li {
     list-style-type: none;
     font-size: 1.5rem;
+    font-family: sans-serif;
 }
 
 .footer-section2 ul li a {
@@ -385,16 +455,20 @@
     color: rgb(80, 126, 36);
     font-size: 1.9rem;
     margin-left: 0.1rem;
+    font-family: sans-serif;
 }
 
 .footer-section3 h1 {
     color: rgb(80, 126, 36);
-    font-size: 1.9rem;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin-top: 3rem;
 }
 
 .footer-section3 p {
     font-size: 1.5rem;
     color: rgb(80, 126, 36);
+    font-family: sans-serif;
 }
 
 .footer-section3 i {
@@ -405,4 +479,5 @@
 
 .rights {
     color: white;
+    font-family: sans-serif;
 }

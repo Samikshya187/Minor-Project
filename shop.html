@@ -12,22 +12,25 @@
 </head>
 
 <body>
+    <div class="text-container">
+        <span class="changing-text">Order before 1pm for same day delivery!</span> 
+         </div>
     <section class="bodysection1">
         <div class="nav-content">
             <div class="navLink">
-                <a href="#">HOME</a>
-                <a href="#">SHOP</a>
+                <a href="./Homepage.html">HOME</a>
+                <a href="./shop.html">SHOP</a>
                 <a href="#">OUR STORES</a>
-                <a href="#">CONTACT</a>
+                <a href="./contact.html">CONTACT</a>
             </div>
 
             <div class="logo">
-                <img src="poppie-removebg-preview.png" height="100rem" srcset="">
+                <img src="logo2.png" height="250px" width="100%" srcset="">
 
             </div>
             <div class="navRight">
                 <form action="">
-                    <input type="text" class="search-input" />
+                    <input type="text" class="search-input" placeholder="search">
                     <button><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
                 <div class="cart">
@@ -43,12 +46,21 @@
         <div class="selectitems">
             <div class="select">
                 <label for="flower">SHOP</label>
-                <select name="flower" id="flower">
+                <select id="flowerselect" onchange="changePage()">
                     <option value="Featured">Shop Anniversary</option>
                     <option value="Best Selling">Shop Birthday</option>
-
                 </select>
             </div>
+            <script>
+               function changePage() {
+  var selectBox = document.getElementById("flowerselect");
+  var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+  if (selectedValue) {
+    window.location = selectedValue; // Redirect to the selected page
+  }
+}
+            </script>
+
         </div>
 
 
@@ -490,7 +502,7 @@
 <footer class="foot">
     <div id="footer">
         <div class="footer-section1">
-            <img src="poppie-removebg-preview.png" alt="" height=60% width="20%">
+            <img src="logo1.png" alt="" height=60% width="20%">
             <h1>Newsletter</h1>
             <p>Subscribe to get special offers, free giveaways, <br>
                 and once-in-a-lifetime deals.
