@@ -9,11 +9,12 @@
 .text-container {
     display: flex;
     border: none;
-    padding: 10px;
+    padding:10px;
     background-color: rgb(192, 196, 87);
     width: 98.5%;
     justify-content: center;
     align-items: center;
+    height: 1rem;
 }
 
 .changing-text {
@@ -85,6 +86,10 @@
     text-shadow: 2px 2px 4px #000;
     font-family: sans-serif;
 
+}
+
+.navLink a:hover{
+    text-decoration: underline;
 }
 
 .logo {
@@ -349,6 +354,7 @@
     margin-bottom: 3%;
     font-size: 1.2rem;
     font-family: sans-serif;
+    color:rgb(241, 98, 98) ;
 }
 
 .card-section2 {
@@ -396,7 +402,6 @@
 .foot {
     min-height: 25rem;
     background-color: rgb(182, 184, 103);
-    margin-top: 2rem;
 }
 
 #footer {
@@ -438,8 +443,8 @@
 
 #new1 {
     border: 0.5px solid white;
+   
 }
-
 
 input {
     outline: none;
@@ -451,7 +456,7 @@ input {
 
 .footer-section1 p {
     color: rgb(80, 126, 36);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: sans-serif;
 }
 
@@ -470,14 +475,18 @@ input {
 
 .footer-section2 ul li {
     list-style-type: none;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-family: sans-serif;
 }
 
 .footer-section2 ul li a {
     color: white;
-    text-decoration: none;
+    text-decoration:none;
     /* margin-right: 8rem; */
+}
+
+.footer-section2 ul li a:hover{
+    text-decoration: underline;
 }
 
 .footer-section2 h1 {
@@ -498,7 +507,7 @@ input {
 }
 
 .footer-section3 p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: sans-serif;
     color: rgb(80, 126, 36);
 }

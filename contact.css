@@ -5,8 +5,8 @@
 
 
 .homebody {
-    background-image: url(pexels-suvan-chowdhury-37305-135712.jpg);
-    height: 70vh;
+    background-image: url(contactimg2.jpg);
+    height: 100vh;
     /* Make the div take up 100% of the viewport height */
 
     background-size: cover;
@@ -26,12 +26,13 @@
 
 .homebody h1 {
     position: absolute;
-    top: 40%;
+    top: 60%;
     left: 30%;
     padding-top: 60px;
     margin-left: 5%;
-    text-shadow: 2px 2px 4px #000;
+    /* text-shadow: 2px 2px 4px #000; */
     font-family: sans-serif;
+    color:rgb(80, 126, 36) ;
 }
 
 .contact1 {
