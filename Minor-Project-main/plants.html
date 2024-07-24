@@ -8,7 +8,7 @@
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="Homepage.css">
+    <link rel="stylesheet" href="style.css">
     <style>
         .card{
             margin: 3rem;
@@ -24,9 +24,9 @@
     <section class="bodysection1">
         <div class="nav-content">
             <div class="navLink">
-                <a href="./Homepage.html">HOME</a>
+                <a href="./index.html">HOME</a>
                 <a href="./shop.html" >SHOP</a>
-                <a href="#">OUR STORES</a>
+                <a href="our-stores.html">OUR STORES</a>
                 <a href="./contact.html" >CONTACT</a>
             </div>
 
@@ -35,10 +35,10 @@
                <h1 class="फूlbaaरी"> फूlbaaरी</h1> 
             </div>
             <div class="navRight">
-                <form action="">
-                    <!-- <input type="text" class="search-input" placeholder="search"> -->
-                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
-                </form>
+                <div class="search" style="cursor: pointer;">
+                    <div class="searchIcon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
                 <div class="cart">
                     <div class="cartIcon">
                         <i class="fa-solid fa-cart-shopping"></i>
@@ -53,11 +53,11 @@
     <div class="card">
         <div class="card-element">
             <div class="card-element-img">
-                <img src="single rose.jpg" height="350px" width="300px" alt="">
+                <img src="./images/philodendron.jpg" height="350px" width="300px" alt="">
             </div>
             <div class="product-information">
                 <div class="productitem-info">
-                    <p>Single Rose</p>
+                    <p>Philodendron</p>
                     <div class="productitem-price">
                         <span class="price">
                             <medium>From Rs100</medium>
@@ -78,11 +78,11 @@
 
         <div class="card-element">
             <div class="card-element-img">
-                <img src="tulips.jpg" height="350px" width="300px" alt="">
+                <img src="./images/lucky plant.jpg" height="350px" width="300px" alt="">
             </div>
             <div class="product-information">
                 <div class="productitem-info">
-                    <p>Tulips</p>
+                    <p>Lucky Plant</p>
                     <div class="productitem-price">
                         <span class="price">
                             <medium>From Rs100</medium>
@@ -103,11 +103,11 @@
 
         <div class="card-element">
             <div class="card-element-img">
-                <img src="poppie.webp" height="350px" width="300px" alt="">
+                <img src="./images/moneyplant.webp" height="350px" width="300px" alt="">
             </div>
             <div class="product-information">
                 <div class="productitem-info">
-                    <p>Poppie</p>
+                    <p>Money Plant</p>
                     <div class="productitem-price">
                         <span class="price">
                             <medium>From Rs100</medium>
@@ -128,11 +128,11 @@
 
         <div class="card-element">
             <div class="card-element-img">
-                <img src="stem roses.webp" height="350px" width="300px" alt="">
+                <img src="./images/brazilian orchid.jpg" height="350px" width="300px" alt="">
             </div>
             <div class="product-information">
                 <div class="productitem-info">
-                    <p>Long Stem Roses</p>
+                    <p>Brazilian Orchid</p>
                     <div class="productitem-price">
                         <span class="price">
                             <medium>From Rs100</medium>
@@ -157,11 +157,11 @@
         <div class="card">
             <div class="card-element">
                 <div class="card-element-img">
-                    <img src="single rose.jpg" height="350px" width="300px" alt="">
+                    <img src="./images/Burgundy rubber.webp" height="350px" width="300px" alt="">
                 </div>
                 <div class="product-information">
                     <div class="productitem-info">
-                        <p>Single Rose</p>
+                        <p>Burgundy Rubber</p>
                         <div class="productitem-price">
                             <span class="price">
                                 <medium>From Rs100</medium>
@@ -182,7 +182,7 @@
 
             <div class="card-element">
                 <div class="card-element-img">
-                    <img src="tulips.jpg" height="350px" width="300px" alt="">
+                    <img src="./images/tulips.jpg" height="350px" width="300px" alt="">
                 </div>
                 <div class="product-information">
                     <div class="productitem-info">
@@ -207,11 +207,11 @@
 
             <div class="card-element">
                 <div class="card-element-img">
-                    <img src="poppie.webp" height="350px" width="300px" alt="">
+                    <img src="./images/Prayerplant.jpg" height="350px" width="300px" alt="">
                 </div>
                 <div class="product-information">
                     <div class="productitem-info">
-                        <p>Poppie</p>
+                        <p>Prayer Plant</p>
                         <div class="productitem-price">
                             <span class="price">
                                 <medium>From Rs100</medium>
@@ -232,11 +232,11 @@
 
             <div class="card-element">
                 <div class="card-element-img">
-                    <img src="stem roses.webp" height="350px" width="300px" alt="">
+                    <img src="./images/marigold.jpg" height="350px" width="300px" alt="">
                 </div>
                 <div class="product-information">
                     <div class="productitem-info">
-                        <p>Long Stem Roses</p>
+                        <p>Marigold</p>
                         <div class="productitem-price">
                             <span class="price">
                                 <medium>From Rs100</medium>
@@ -259,12 +259,20 @@
 <footer class="foot">
     <div id="footer">
         <div class="footer-section1">
-            <img src="logo1.png" alt="" height=60% width="20%">
+            <!-- <img src="logo1.png" alt="" height=60% width="20%"> -->
+            <h3 class="फूlbaaरी"> फूlbaaरी</h3><br><br><br><br><br>
             <h1>Newsletter</h1>
             <p>Subscribe to get special offers, free giveaways, <br>
                 and once-in-a-lifetime deals.
             </p>
-
+            <div class="e-form">
+                <label for="email"></label>
+                <input type="text" placeholder="E-mail" style="height: 2rem; width:5rem; margin-top: 4rem;">
+                <!-- <div class="join"> -->
+                <button>JOIN</button>
+                <!-- </div> -->
+            </div>
+            <hr id="new1">
         </div>
 
         <div class="footer-section2">
@@ -272,7 +280,7 @@
             <ul>
                 <li><a href="Homepage.html">HOME</a></li>
                 <li><a href="shop.html">SHOP</a></li>
-                <li><a href="">OUR STORES</a></li>
+                <li><a href="our-stores.html">OUR STORES</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
 
             </ul>

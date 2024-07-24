@@ -14,6 +14,7 @@
     width: 98.5%;
     justify-content: center;
     align-items: center;
+    height:0.5rem;
 }
 
 .changing-text {
@@ -110,7 +111,7 @@
     gap: 18px;
 }
 
-.navRight form {
+/* .navRight form {
     width: fit-content;
     padding: 2px;
     border-radius: 36px;
@@ -136,6 +137,28 @@
     background-color: rgb(192, 196, 87);
     border: none;
     color: white;
+} */
+
+.search{
+    padding: 5px;
+    padding-right: 26px;
+    border: none;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 36px;
+}
+
+.searchIcon {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(192, 196, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
 }
 
 .cart {
@@ -160,13 +183,13 @@
 
 }
 
-.cart span {
+/* .cart span {
     font-size: 16px;
     font-weight: 600;
     color: white;
     font-family: sans-serif;
 
-}
+} */
 
 
 .home-body {
@@ -179,7 +202,8 @@
     color: white;
     font-size: 3rem;
     font-family: sans-serif;
-    margin-top: -19rem
+    margin-top: -15rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 .body-button button {
@@ -218,7 +242,7 @@
 .flower-types ul a {
     margin-left: 1.5rem;
     text-decoration: none;
-    color: rgb(4, 0, 5);
+    color: rgb(192, 196, 87);
 
 
 
@@ -263,6 +287,7 @@
 .product-information p {
     font-size: 1.3rem;
     font-family: sans-serif;
+    color: rgb(192, 196, 87);
 }
 
 .productitem-info {
@@ -350,6 +375,7 @@
     margin-bottom: 3%;
     font-size: 1.2rem;
     font-family: sans-serif;
+    color: rgb(241, 98, 98);
 }
 
 .card-section2 {
@@ -382,6 +408,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 .flower p {
@@ -397,7 +424,7 @@
 .foot {
     min-height: 25rem;
     background-color: rgb(182, 184, 103);
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 #footer {
@@ -481,11 +508,19 @@ input {
     /* margin-right: 8rem; */
 }
 
+.footer-section2 ul li a:hover{
+    text-decoration: underline;
+}
+
 .footer-section2 h1 {
     color: rgb(80, 126, 36);
     font-size: 1.9rem;
     margin-left: 0.1rem;
     font-family: sans-serif;
+}
+
+.फूlbaaरी{
+    margin-top:1rem;
 }
 
 .footer-section3 {
